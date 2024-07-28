@@ -10,7 +10,7 @@ Long press on #OSLogger icon
 
 
 
-# Supports iOS 12,13 and 14+
+# Supports iOS 12,13,14 and 15,16 RootLess
 
 ### ScreenShots
 
