@@ -8,6 +8,7 @@
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #pragma GCC diagnostic ignored "-Wincomplete-implementation"
 #pragma GCC diagnostic ignored "-Wunguarded-availability-new"
+#pragma GCC diagnostic ignored "-Wunused-but-set-variable"
 
 #import <UIKit/UIKit.h>
 #include <sys/types.h>

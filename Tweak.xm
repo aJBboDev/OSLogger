@@ -69,25 +69,6 @@ if (isOSLoggerPresented && format) {
 }
 
 
-// %hookf(int , printf, const char *restricts, ...) {
-
-// if (isOSLoggerPresented && restricts) { 
-
-//     va_list arglist;
-//     va_start( arglist, restricts );
-//     char *target = strdup(restricts);
-//     vsprintf( &target[0], restricts, arglist );
-//     va_end( arglist );
-
-//     NSLog(@"%@",@(target));
- 
-//  }
-
-//   return %orig(restricts);
-// }
-
-
-
 NSArray *reArrangeArrays(NSArray *iObjects) {
     
     NSMutableArray *Words = [[NSMutableArray alloc] init];
@@ -292,7 +273,7 @@ if (!isOSLoggerPresented) {
 
     ]];
 
-    NSArray *Obj = [CMManager InitButtonImage:[UIImage imageNamed:@"/Library/Application Support/OSLogger.bundle/OSL.png"] InView:ViewCont Target:self Action:@selector(Button_Tapped)];
+    NSArray *Obj = [CMManager InitButtonImage:[UIImage imageNamed:@"/var/jb/Library/Application Support/OSLogger.bundle/OSL.png"] InView:ViewCont Target:self Action:@selector(Button_Tapped)];
 
     ImageView = [Obj objectAtIndex:1];
     ImageView.clipsToBounds = YES;
